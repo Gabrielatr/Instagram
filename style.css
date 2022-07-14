@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background: -webkit-linear-gradient(top, #ffffff, #eec0ab);
     margin: 0;
     padding: 0;
     display: flex;
@@ -54,7 +54,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffffff;
-    width: 93%;
+    width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
