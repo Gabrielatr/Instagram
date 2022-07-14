@@ -54,7 +54,7 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #ffffffff;
-    width: 100%;
+    width: 93%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
@@ -78,6 +78,7 @@ body {
     overflow: hidden;
     height: 7rem;
     width: 7rem;
+    margin: 10px;
 }
 
 /*funções*/
@@ -112,6 +113,11 @@ body {
     padding: 1.3rem 0;
 }
 
+.get-app{
+    font-weight: bolder;
+    font-size: medium;
+}
+
 .download{
     display: flex;
     width: 100%;
@@ -127,11 +133,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url(img/download.png);
+    background-image: url("img/download1.png");
 }
 
 .app-download:nth-child(2) {
-    background-image: url(img/download2.png);
+    background-image: url("img/download2.png");
 }
 
 /*media queries*/
